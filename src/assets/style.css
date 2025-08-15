@@ -1,0 +1,73 @@
+:root {
+    --text-color: #FFFFFF;
+    --tc-64: rgba(255, 255, 255, 0.64);
+    --tc-48: rgba(255, 255, 255, 0.48);
+
+    --bc-04: rgba(255, 255, 255, 0.04);
+    --bc-08: rgba(255, 255, 255, 0.08);
+    --bc-12: rgba(255, 255, 255, 0.12);
+    --bc-16: rgba(255, 255, 255, 0.16);
+
+    --background-color: rgba(27, 27, 29, 1);
+    --bc-header: rgb(45, 45, 47);
+    --bc-zoom: #222222;
+
+    --dark-blue: rgba(0, 122, 255, 1);
+    --blue: rgba(0, 151, 253, 1);
+    --blue-01: rgba(0, 151, 253, 0.1);
+    --blue-16: rgba(0, 151, 253, 0.16);
+
+    --cyan: rgba(127, 215, 204, 1);
+    --cyan-16: rgba(127, 215, 204, 0.16);
+    --cyan-32: rgba(74, 201, 155, 0.32);
+
+    --purple: rgba(123, 67, 158, 1);
+    --purple-16: rgba(179, 72, 247, 0.16);
+
+    --light-orange: #FF7043;
+    --orange: rgba(255, 112, 67, 1);
+    --orange-16: rgba(255, 112, 67, 0.16);
+}
+
+[data-theme="light"] {
+    --text-color: rgba(27, 27, 29, 1);
+    --tc-64: rgba(0, 0, 0, 0.64);
+    --tc-48: rgba(0, 0, 0, 0.48);
+
+    --bc-04: rgba(0, 0, 0, 0.04);
+    --bc-08: rgba(0, 0, 0, 0.08);
+    --bc-12: rgba(0, 0, 0, 0.12);
+    --bc-16: rgba(0, 0, 0, 0.16);
+
+    --background-color: #FFFFFF;
+    --bc-header: rgb(235, 235, 235);
+    --bc-zoom: #FFFFFF;
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Inter"), url("fonts/Inter/Inter-Regular.otf");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    src: local("Inter"), url("fonts/Inter/Inter-SemiBold.otf");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    src: local("Inter"), url("fonts/Inter/Inter-Bold.otf");
+}
+
+body {
+    font-family: "Inter";
+    font-weight: normal;
+    background: var(--background-color);
+    color: var(--text-color);
+}
